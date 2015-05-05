@@ -1,6 +1,8 @@
-xdescribe Response
+require 'spec_helper'
 
-before :each do
-end
+describe GoogleTasks::Response do
+
+  it 'should have some tests!' do
+  end
 
 end

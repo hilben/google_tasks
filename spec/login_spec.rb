@@ -1,6 +1,12 @@
-xdescribe Login
+require 'spec_helper'
 
-before :each do
-end
+describe GoogleTasks::Login do
+
+  before :each do
+  end
+
+  it 'should have some test' do
+    raise 'implement some tests'
+  end
 
 end

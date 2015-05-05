@@ -14,11 +14,13 @@ Gem::Specification.new do |s|
 
   s.rubyforge_project = "google_tasks"
 
-
-  s.add_dependency('sinatra')
-
-  s.add_dependency('vcr')
-  s.add_dependency('guard')
+  s.add_development_dependency "rspec"
+  s.add_development_dependency "rspec-nc"
+  s.add_development_dependency "guard"
+  s.add_development_dependency "guard-rspec"
+  s.add_development_dependency "pry"
+  s.add_development_dependency "pry-remote"
+  s.add_development_dependency "pry-nav"
 
   s.files         = `git ls-files`.split("\n")
   s.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")

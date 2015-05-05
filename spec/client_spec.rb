@@ -1,8 +1,9 @@
-xdescribe Client
+require 'spec_helper'
 
-before :each do
-end
+describe GoogleTasks::Client do
 
-
+  it 'should have some tests' do
+    raise 'implement'
+  end
 
 end
